@@ -13,7 +13,7 @@ hostname = mobile-ios-wallpaper-api.zhhainiao.com
 var body = $response.body;
 var obj =  JSON.parse(body);
 
-let vipInfo = {
+var vipInfo = {
   "vip_ex_date" : 32503338000,
   "vip_type" : "13"
 };
