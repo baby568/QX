@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #元气桌面壁纸解锁会员
-^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/baby568/QX/main/weather.js
+^https:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/baby568/QX/main/weather.js
 [mitm] 
 hostname = mobile-ios-wallpaper-api.zhhainiao.com
 *******************************/
