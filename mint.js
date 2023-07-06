@@ -18,4 +18,4 @@ obj.data.memberEndTime= 32503338000;
 obj.data.isMember = 0;
 
 body = JSON.stringify(obj);
-$done({body});
+$done(body);
