@@ -10,6 +10,7 @@
 [mitm] 
 hostname = mobile-ios-wallpaper-api.zhhainiao.com
 *******************************/
+
 var body = $response.body;
 var obj =  JSON.parse(body);
 var vipInfo = {
