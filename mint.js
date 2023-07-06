@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #薄荷壁纸解锁vip
-^https:\/\/mars-prod\.whalean\.com\/hestia-service\/api\/wpUser\/getUserInfo url script-response-body 
+^https:\/\/mars-prod\.whalean\.com\/hestia-service\/api\/wpUser\/getUserInfo url script-response-body https://raw.githubusercontent.com/baby568/QX/main/mint.js
 [mitm] 
 hostname = mars-prod.whalean.com
 *******************************/
