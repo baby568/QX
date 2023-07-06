@@ -19,4 +19,4 @@ var vipInfo = {
 };
 obj.user_info.permission_vip_info = [vipInfo], obj.permission_vip_info = [vipInfo];
 body = JSON.stringify(obj);
-$done({body});
+$done(body);
