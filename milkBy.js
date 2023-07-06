@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #奶由壁纸解锁vip
-^https:\/\/nz-api\.duitang\.com\/account\/me\/ url script-response-body 
+^https:\/\/nz-api\.duitang\.com\/account\/me\/ url script-response-body https://raw.githubusercontent.com/baby568/QX/main/milkBy.js
 [mitm] 
 hostname = nz-api.duitang.com
 *******************************/
