@@ -14,7 +14,8 @@ var body = $response.body;
 var obj =  JSON.parse(body);
 
 obj.memberType = 1;
-obj.memberEndTime= 11111111111;
+obj.memberEndTime= 32503338000;
+obj.isMember = 0;
 
 body = JSON.stringify(obj);
 $done({body});
