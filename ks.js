@@ -8,8 +8,8 @@
 *******************************
 [rewrite_local]
 #快手约炮解锁全部视频
-^https?:\/\/.*\/api\/h5app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KuaiShouPornCrack.js
-^https?:\/\/.*\/api\/h5app\/media\/m3u8\/.+\.m3u8 url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/KuaiShouPronCrack.js
+^https?:\/\/.*\/api\/h5app\/user\/info$ url script-response-body https://raw.githubusercontent.com/baby568/QX/main/ks.js
+^https?:\/\/.*\/api\/h5app\/media\/m3u8\/.+\.m3u8 url script-request-header https://raw.githubusercontent.com/baby568/QX/main/ks.js
 [mitm] 
 hostname = zb.rjuofu.net
 
