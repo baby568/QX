@@ -12,6 +12,6 @@ hostname = tybook.ios.itaoxiaoshuo.com
 *******************************/
 var obj =  JSON.parse($response.body);
 
-obj.isVip = obj.paymentUser = true;
+obj.data.isVip = obj.data.paymentUser = true;
 
 $done(JSON.stringify(obj));
