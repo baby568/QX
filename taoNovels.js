@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #淘小说解锁vip
-^https:\/\/tybook\.ios\.itaoxiaoshuo\.com\/auth\/account url script-response-body 
+^https:\/\/tybook\.ios\.itaoxiaoshuo\.com\/auth\/account url script-response-body https://raw.githubusercontent.com/baby568/QX/main/taoNovels.js
 [mitm] 
 hostname = tybook.ios.itaoxiaoshuo.com
 *******************************/
