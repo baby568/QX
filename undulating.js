@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #起伏解锁会员
-^https:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body 
+^https:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/baby568/QX/main/undulating.js
 [mitm] 
 hostname = api.risingfalling.com
 *******************************/
