@@ -10,9 +10,8 @@
 [mitm] 
 hostname = 
 *******************************/
-var body = $response.body;
-var obj =  JSON.parse(body);
+
+var obj =  JSON.parse($response.body);
 
 
-body = JSON.stringify(obj);
-$done(body);
+$done(JSON.stringify(obj));
