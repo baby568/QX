@@ -6,13 +6,21 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-#
-^ url script-response-body 
+#夏时vpn破解
+^https://xiashk.com/addressx5/ url script-response-body 
 [mitm] 
-hostname = 
+hostname = xiashk.com
 *******************************/
 
 var obj =  JSON.parse($response.body);
+obj.hand.vip = "0";
 
+if (obj.tcp) {
+  for(var item in obj.tcp) {
+    if (item.vip) {
+      item.vip = "0";
+    }
+  }
+}
 
 $done(JSON.stringify(obj));
