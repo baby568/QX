@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 #夏时vpn破解
-^https://xiashk.com/addressx5/ url script-response-body https://raw.githubusercontent.com/baby568/QX/main/xiashi.js
+^https:\/\/xiashk\.com\/addressx5\/ url script-response-body https://raw.githubusercontent.com/baby568/QX/main/xiashi.js
 [mitm] 
 hostname = xiashk.com
 *******************************/
