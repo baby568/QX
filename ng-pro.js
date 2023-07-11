@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 #恢复内购
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body ng-pro.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/baby568/QX/main/ng-pro.js
 [mitm] 
 hostname = buy.itunes.apple.com
 *******************************/
